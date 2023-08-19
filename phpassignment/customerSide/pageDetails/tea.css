@@ -1,0 +1,254 @@
+body, html
+{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+
+/* Middle */
+.back a
+{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+.back
+{
+    width:10%;
+    height:2%;
+    background-color:blue;
+    border: 1px solid black;
+    border-radius:10px;
+}
+.middle{
+    height: 2700px;
+    width: 100%;
+}
+h1{
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+h2{
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    right: 310px;
+    top: 30px;
+    text-decoration: underline;
+}
+
+/* Container for each article */
+
+.container1 , .container2 , .container3 , .container4{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.container1{
+    background-color: white;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+
+}
+.container2{
+    height: 770px;
+    background-color: wheat;
+    top: -140px;
+    color: black;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 80%);
+    z-index: -1;
+}
+.container3{
+    background-color: black;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    color: white;
+    top: -300px;
+    z-index: -2;
+    height: 800px;
+}
+.container4{
+    height: 770px;
+    top: -460px;
+    z-index: -3;
+    border-bottom: 1px solid black;
+}
+
+/* image in every article */
+
+.tea_img{
+    width: 700px;
+    height: 500px;
+    margin: 50px 80px;
+}
+.container2 > .tea_img{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.container1 > .tea_img{
+    border-radius:  50%;
+    width: 600px;
+}
+.container3 > .tea_img{
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    top: -40px;
+    left: -80px;
+}
+.container4 > .tea_img{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 700px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+/* text and title in every article */
+
+.text{
+    position: absolute;
+    top: 50px;
+    left: 623px;
+    margin-top: 50px;
+    margin-left: 260px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1.7px;
+}
+.container2 > h2{
+    position: absolute;
+    top: 135px;
+    left: 355px;
+}
+.container2 > .text{
+    position: absolute;
+    top: 150px;
+    left: -100px;
+    margin-right: 921px;
+    margin-left: 200px;
+    letter-spacing: 1.7px;
+}
+.container3 > h2{
+    position: absolute;
+    top: 170px;
+    right: 25px;
+}
+.container3 > .text{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    line-height: 7em;
+}
+.container4 > h2{
+    position: absolute;
+    top: 150px;
+    left:370px;
+}
+.container4 > .text{
+    position: absolute;
+    top: 160px;
+    left: -159px;
+    text-align: justify;
+    margin-right: 923px;
+    line-height: 2em;
+}
+
+/* pointer of tea utensils */
+.one{
+    position:absolute;
+    top: 160px;
+    right: 530px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.two{
+    position:absolute;
+    top: 210px;
+    right: 280px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.three{
+    position:absolute;
+    bottom: 360px;
+    right: 560px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.four{
+    position:absolute;
+    bottom: 390px;
+    right: 390px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.five{
+    position:absolute;
+    bottom: 300px;
+    right: 270px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.six{
+    position:absolute;
+    top: 240px;
+    right: 630px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+

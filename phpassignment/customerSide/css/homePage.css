@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2021, 11:19:14 PM
+    Author     : mikae
+*/
+
+.content1
+{
+    background-color: rgb(240, 240, 240);
+}
+
+.content1:hover, .content2:hover, .content3:hover
+{
+    background-color:rgb(210, 210, 210);
+}
+
+.content2
+{
+    background-color: rgb(230, 230, 230);
+}
+
+.content3
+{
+    background-color: rgb(220, 220, 220);
+}

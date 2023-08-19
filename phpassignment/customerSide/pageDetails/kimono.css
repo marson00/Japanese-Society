@@ -1,0 +1,263 @@
+body, html
+{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+/* Middle */
+.middle{
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid black;
+}
+
+
+/* container for every single part */
+.container1 , .container2 , .container3{
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+/* title */
+h1{
+    font-size: 25px;
+    margin: 50px auto;
+    letter-spacing: .2em;
+    
+}
+.container2 > h1 , .container3 > h1{
+    background-color: white;
+    margin: 0 400px;
+}
+.container3 > h1{
+    margin: 80px 340px;
+    margin-bottom: 0;
+}
+
+
+/* Container 1 -- image */
+.container1 > img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container1 > .img1{
+    width: 590px;
+    height: 820px;
+    z-index: -1;
+}
+.container1 > .img2{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    z-index: -2;
+}
+.container1 > .img3{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    z-index: -2;
+}
+
+/* Container 2 -- Image */
+.container2 > img{
+    margin-top: 40px;
+}
+.container2 > .img1{
+    margin-top: 40px;
+}
+.container2 > .img2{
+    width: 610px;
+    height: 600px;
+}
+.container2 > .img3{
+    width: 550px;
+    height: 650px;
+}
+.container2 > .img4{
+    width: 650px;
+    height: 500px;
+}
+.container2 > .img5{
+    width: 580px;
+}
+
+
+/* top 1 kimono background */
+.top1_background , .top2_background , .top3_background , .top4_background , .top5_background{
+    width: 100%;
+    height: 460px;
+    background: linear-gradient(to left, darkgray, rgb(221, 221, 221) , rgb(221, 221, 221) , darkgray );
+    position: absolute;
+    z-index: -1;
+}
+.container2 > .top1_background{
+    top: 100px;
+}
+.container2 > .top2_background{ 
+    top: 945px;
+}
+.container2 > .top3_background{ 
+    top: 1875px;
+}
+.container2 > .top4_background{
+    top: 2710px;
+}
+.container2 > .top5_background{ 
+    top: 3590px;
+}
+
+/* left number and right side number */
+.left-1 , .right-1 , .left-2 , .right-2 , .left-3 , .right-3 , .left-4 , .right-4 , .left-5 , .right-5{
+    position: absolute;
+    color: white;
+    left: 120px;
+    top:70px;
+    font-size: 23em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right-1 , .right-2 , .right-3 , .right-4 , .right-5{
+    right: -1000px;
+}
+.left-2 , .right-2{
+    top: 900px;
+}
+.left-3 , .right-3{
+    top: 1830px;
+}
+.left-4 , .right-4{
+    top: 2665px;
+}
+.left-5 , .right-5{
+    top: 3540px;
+}
+
+
+
+/* 5 popular Name of Kimono */
+.kimono_name{
+    margin: 40px 0;
+    font-size: 25px;
+}
+
+/* text background */
+.text_background{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 85px;
+    background-image: url(pictures/kimono_background.png);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* text */
+.text{
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.4em;
+    background: white;
+    padding: 50px ;
+    color: rgb(75, 73, 73);
+}
+.attention{
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+/* Container 2 -- text */
+.container2 > .text{
+    padding-top: 0;
+}
+
+
+/* back-line */
+.container2 > .back_line{
+    width: 100%;
+    height: 5px;
+    background-color: lightpink;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+}
+.container3 > .back_line{
+    width: 100%;
+    height: 5px;
+    background-color: lightpink;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+}
+
+/* Container 3 -- h2 */
+.container3 h2{
+    margin: 20px 0;
+    margin-left: 164px;
+    width: 400px;
+}
+.occ2 > h2{
+    margin-left: 224px;
+}
+.occ3 > h2{
+    margin-left: 177px;
+}
+.occ4 > h2{
+    margin-left: 262px;
+}
+.occ5 > h2{
+    margin-left: 209px;
+}
+.occ6 > h2{
+    margin-left: 271px;
+}
+
+/* container 3 -- images */
+.image{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.occ1 > .image{
+    width: 500px;
+    height: 650px;
+}
+.occ2 > .image{
+    width: 740px;
+    height: 500px;
+}
+.occ3 > .image{
+    width: 420px;
+    height: 600px;
+}
+.occ4 > .image{
+    width: 860px;
+    height: 600px;
+}
+.occ5 > .image{
+    width: 840px;
+    height: 600px;
+}
+.occ6 > .image{
+    width: 800px;
+    height: 400px;
+}
+
+/* Container 3 -- text */
+.container3 .text{
+    padding: 0;
+}
+
+
